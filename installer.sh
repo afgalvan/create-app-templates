@@ -1,5 +1,5 @@
 mkdir -p ~/.config/create-app
-wget https://raw.githubusercontent.com/afgalvan/create-app/web/bin/create_app.sh
+wget https://raw.githubusercontent.com/afgalvan/create-app/web/create_app.sh
 chmod +x create_app.sh
 mv create_app.sh ~/.config/create-app/
 echo "alias create-app=$HOME/.config/create-appcreate_app.sh" >> ~/.bashrc
