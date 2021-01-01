@@ -1,9 +1,10 @@
 #!/bin/bash
 
+echo "create-app installer"
 mkdir -p ~/.config/create-app
 wget https://raw.githubusercontent.com/afgalvan/create-app/web/create_app.sh
 chmod +x create_app.sh
-if [ -d "$1"]
+if [ -d "$1" ]; then
     echo "yarn" > ~/.config/create-app/default_pm
 else
     echo "$1" > ~/.config/create-app/default_pm
