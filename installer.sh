@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p ~/.config/create-app
 wget https://raw.githubusercontent.com/afgalvan/create-app/web/create_app.sh
 chmod +x create_app.sh
