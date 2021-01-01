@@ -47,7 +47,7 @@ change_package_manager() {
 }
 
 prompt_help() {
-
+    echo ""
 }
 
 main() {
@@ -95,12 +95,13 @@ main() {
     fi
 
     repo_url=https://github.com/afgalvan/create-app.git
-    # git clone -q "$repo_url" "$1"
-    # cd "$project_name"
-    # echo "# $project_name" > README.md
-    # rm -rf .git/
-    # git init
-    # "$package_manager" install --silent
+    git clone -q "$repo_url" "$1"
+    cd "$project_name"
+    echo "# $project_name" > README.md
+    rm -rf .git/
+    git init
+    git checkout -b main
+    "$package_manager" install --silent
     echo -e "\n\n\n\n\n\n\n\n\n\n$GREEN"
     echo -e "✓$RESET $project_name project$GREEN SUCCESFULLY$RESET setted with $package_manager$RESET!"
 }
