@@ -101,6 +101,7 @@ main() {
     rm -rf .git/
     git init
     git checkout -b main
+    rm -f create_app.sh installer.sh
     "$package_manager" install --silent
     echo -e "\n\n\n\n\n\n\n\n\n\n$GREEN"
     echo -e "✓$RESET $project_name project$GREEN SUCCESFULLY$RESET setted with $package_manager$RESET!"
