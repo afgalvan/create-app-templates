@@ -51,6 +51,7 @@ prompt_help() {
 }
 
 main() {
+    echo "create-app alpha"
     project_name="$1"
     package_manager="$2"
     if [ -z "$package_manager" ]; then
