@@ -6,8 +6,6 @@ Basic web-app template.
 
 - [git](https://git-scm.com/downloads) ^2.x.
 - [node](https://nodejs.org/en/download/) ^12.18.4
-- [curl](https://curl.se/download.html)
-- [wget](https://www.gnu.org/software/wget/)
 - A node package manager.
   - [yarn](https://classic.yarnpkg.com/en/docs/install/) ^1.x
   - [npm](https://www.npmjs.com/get-npm) ^6.x
@@ -17,19 +15,19 @@ Basic web-app template.
 ## To install template manager (create-app).
 
 ```
-curl -sL https://raw.githubusercontent.com/afgalvan/create-app/web/installer.sh | bash -s
+curl -sL https://raw.githubusercontent.com/afgalvan/create-app/main/installer.sh | bash -s
 ```
 
 ---
 
-## Manually specific template download.
+## Manually specific web template download.
 
 ### 1. Get the template.
 
 Clone the repository with git by:
 
 ```
-git clone -b <branchname> https://github.com/afgalvan/create-app/.git <new-project-name>
+git clone -b web https://github.com/afgalvan/create-app/.git <new-project-name>
 ```
 
 or
