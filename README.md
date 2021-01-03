@@ -15,8 +15,24 @@ Basic web-app template.
 ## To install template manager (create-app).
 
 ```
-curl -sL https://raw.githubusercontent.com/afgalvan/create-app/main/installer.sh | bash -s
+curl -sL https://raw.githubusercontent.com/afgalvan/create-app/main/installer.sh | bash -s [package-manager] [branch]
 ```
+
+The package-manager argument it's optional, **npm** is configured by default.
+
+### **Create a new alias:**
+
+bash
+
+> ```
+> echo "alias create-app=\"~/.config/create-app/create_app.sh\"" >> ~/.bashrc
+> ```
+
+zsh
+
+> ```
+> echo "alias create-app=\"~/.config/create-app/create_app.sh\"" >> ~/.zshrc
+> ```
 
 ---
 
