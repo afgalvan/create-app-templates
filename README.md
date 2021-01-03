@@ -2,7 +2,7 @@
 
 Basic web-app template.
 
-## Requiriments.
+## Requirements.
 
 - [git](https://git-scm.com/downloads) ^2.x.
 - [node](https://nodejs.org/en/download/) ^12.18.4
