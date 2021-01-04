@@ -49,7 +49,7 @@ git clone -b web https://github.com/afgalvan/create-app/.git <new-project-name>
 or
 
 ```
-gh repo clone afgalvan/create-app <new-project-name>
+gh repo clone afgalvan/create-app <new-project-name> -- -b web
 ```
 
 ### 2. Create your own project.
