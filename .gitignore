@@ -154,3 +154,7 @@ yarn.lock
 
 # and uncomment the following lines
 # .pnp.*
+__pycache__
+discord.xml
+workspace.xml
+settings.json
