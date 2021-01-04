@@ -1,10 +1,26 @@
 """
-Docstring module
+Docstring helpers
 """
 
 
-def main():
+def helper():
     """
-    Main function description
+    helper function description
     """
-    print('Hello template!')
+
+    return True
+
+
+def odd_numbers(limit: int):
+    """
+    Generate odd numbers
+    """
+
+    if not isinstance(limit, int):
+        return None
+
+    numbers = []
+    for i in range(1, limit + 1, 2):
+        numbers.append(i)
+
+    return numbers

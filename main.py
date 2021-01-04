@@ -1,9 +1,8 @@
 """
-Docstring module
+Docstring main
 """
 
-from src.helpers import main
+from src.core import main
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
