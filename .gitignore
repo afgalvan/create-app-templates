@@ -141,7 +141,6 @@ dist
 
 ### yarn ###
 # https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
-yarn.lock
 .yarn/*
 !.yarn/releases
 !.yarn/plugins
@@ -158,3 +157,4 @@ __pycache__
 discord.xml
 workspace.xml
 settings.json
+.pytest_cache
