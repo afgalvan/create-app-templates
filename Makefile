@@ -1,5 +1,5 @@
 init:
-	pip install pipenv
+	pip3 install pipenv
 	pipenv install --ignore-pipfile
 	pipenv shell
 
