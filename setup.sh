@@ -1,7 +1,7 @@
 #!/bin/bash
 
 {
-    make init
+    make dependencies
 } && {
     rm -f setup.sh
     exit 0
