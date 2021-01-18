@@ -3,7 +3,6 @@ dependencies:
 	pipenv install --ignore-pipfile
 
 init:
-	pip3 install pipenv
 	pipenv install --ignore-pipfile
 	pipenv shell
 
