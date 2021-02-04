@@ -158,3 +158,4 @@ discord.xml
 workspace.xml
 settings.json
 .pytest_cache
+*.py
