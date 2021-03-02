@@ -22,6 +22,6 @@ echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 \t\t<orderEntry type=\"inheritedJdk\" />
 \t\t<orderEntry type=\"sourceFolder\" forTests=\"false\" />
 \t</component>
-</module>" > "$project_name.xml"
+</module>" > "$project_name.iml"
 
 rm -f setup.sh
