@@ -1,42 +1,19 @@
 root = true
 
 [*]
-indent_style = space
-indent_size = 4
-insert_final_newline = true
-trim_trailing_whitespace = true
-end_of_line = lf
 charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+max_line_length = 120
 
-# Docstrings and comments use max_line_length = 79
-[*.py]
-max_line_length = 119
+[{*.bash,*.sh,*.zsh}]
+indent_size = 2
+tab_width = 2
 
-# Use 2 spaces for the HTML files
-[*.html]
+[{*.har,*.json}]
 indent_size = 2
 
-# The JSON files contain newlines inconsistently
-[*.json]
+[{*.yaml,*.yml}]
 indent_size = 2
-insert_final_newline = ignore
-
-[**/admin/js/vendor/**]
-indent_style = ignore
-indent_size = ignore
-
-# Minified JavaScript files shouldn't be changed
-[**.min.js]
-indent_style = ignore
-insert_final_newline = ignore
-
-# Makefiles always use tabs for indentation
-[Makefile]
-indent_style = tab
-
-# Batch files use tabs for indentation
-[*.bat]
-indent_style = tab
-
-[docs/**.txt]
-max_line_length = 79
