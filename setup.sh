@@ -5,23 +5,23 @@ project_name="$2"
 # Modules
 echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <project version=\"4\">
-<component name=\"ProjectModuleManager\">
-<modules>
-<module fileurl=\"file://\$PROJECT_DIR\$/$project_name.iml\" filepath=\"\$PROJECT_DIR\$/$project_name.iml\" />
-</modules>
-</component>
+\t<component name=\"ProjectModuleManager\">
+\t\t<modules>
+\t\t\t<module fileurl=\"file://\$PROJECT_DIR\$/$project_name.iml\" filepath=\"\$PROJECT_DIR\$/$project_name.iml\" />
+\t\t</modules>
+\t</component>
 </project>" > .idea/modules.xml
 
 echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <module type=\"JAVA_MODULE\" version=\"4\">
-<component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">
-<exclude-output />
-<content url=\"file://\$MODULE_DIR\$\">
-<sourceFolder url=\"file://\$MODULE_DIR\$/src\" isTestSource=\"false\" />
-</content>
-<orderEntry type=\"inheritedJdk\" />
-<orderEntry type=\"sourceFolder\" forTests=\"false\" />
-</component>
+\t<component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">
+\t\t<exclude-output />
+\t\t<content url=\"file://\$MODULE_DIR\$\">
+\t\t\t<sourceFolder url=\"file://\$MODULE_DIR\$/src\" isTestSource=\"false\" />
+\t\t</content>
+\t\t<orderEntry type=\"inheritedJdk\" />
+\t\t<orderEntry type=\"sourceFolder\" forTests=\"false\" />
+\t</component>
 </module>" > "$project_name.xml"
 
 rm -f setup.sh
