@@ -296,3 +296,6 @@ dmypy.json
 
 # profiling data
 .prof
+shunit*
+scripts
+test
