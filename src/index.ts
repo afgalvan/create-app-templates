@@ -1,3 +1,6 @@
+import './styles/main.css';
+
+console.log('about');
 export class Numbers {
   public isOdd(numbers: number[]): boolean[] {
     const answer = numbers.map((value: number) => {
