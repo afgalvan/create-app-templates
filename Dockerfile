@@ -1,5 +1,7 @@
-FROM alpine:latest
-COPY ./out/production/actividad3 /usr/src/
-WORKDIR /usr/src/
+FROM openjdk:8-jdk-alpine
+COPY ./src/ /usr/src
+WORKDIR /usr/
+RUN mkdir -p out/production/[project_name]
 RUN apk --update add openjdk8-jre
-CMD ["java", "edu.unicesar.path.to.Main"]
+RUN javac $(find ./src/* | grep .java) -d out/production/[project_name]
+CMD ["java", "edu.unicesar.purpose.main.Main"]

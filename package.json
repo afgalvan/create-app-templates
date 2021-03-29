@@ -1,0 +1,24 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:afgalvan/create-app-templates.git",
+  "author": "Andres Galvan <afgalvan@unicesar.edu.co>",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p out/production/[project_name] && javac $(find ./src/* | grep .java) -d out/production/[project_name]",
+    "start": "yarn build && java -cp out/production/[project_name]/ edu.unicesar.purpose.main.Main",
+    "format": "prettier --write ./"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "yarn run format",
+      "pre-push": "yarn tests"
+    }
+  },
+  "devDependencies": {
+    "ghooks": "^2.0.4",
+    "prettier": "^2.2.1",
+    "prettier-plugin-java": "^1.0.2"
+  }
+}
