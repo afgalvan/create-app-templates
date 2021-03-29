@@ -13,7 +13,7 @@
   "config": {
     "ghooks": {
       "pre-commit": "yarn run format",
-      "pre-push": "yarn tests"
+      "pre-push": "yarn build"
     }
   },
   "devDependencies": {
