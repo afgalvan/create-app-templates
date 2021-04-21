@@ -1,4 +1,4 @@
-package edu.unicesar.purpose.main;
+package co.edu.unicesar.purpose.main;
 
 public class Main {
 

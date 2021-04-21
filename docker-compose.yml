@@ -1,9 +1,0 @@
----
-version: "3"
-  
-services:
-  java:
-    container_name: container_name
-    stdin_open: true # docker run -i
-    tty: true # docker run -t
-    build: .
