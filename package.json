@@ -6,14 +6,11 @@
   "author": "Andres Galvan <afgalvan@unicesar.edu.co>",
   "license": "MIT",
   "scripts": {
-    "build": "mkdir -p out/production/[project_name] && javac $(find ./src/* | grep .java) -d out/production/[project_name]",
-    "start": "yarn build && java -cp out/production/[project_name]/ edu.unicesar.purpose.main.Main",
     "format": "prettier --write ./"
   },
   "config": {
     "ghooks": {
-      "pre-commit": "yarn run format",
-      "pre-push": "yarn build"
+      "pre-commit": "yarn run format"
     }
   },
   "devDependencies": {
