@@ -160,3 +160,6 @@ settings.json
 .pytest_cache
 *.py
 out
+.gradle
+bin
+build
