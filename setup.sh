@@ -24,4 +24,8 @@ echo -e "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 \t</component>
 </module>" > "$project_name.iml"
 
+echo "rootProject.name = '$project_name'" > settings.gradle
+
+gradle wrapper
+
 rm -f setup.sh
