@@ -7,7 +7,7 @@ module.exports = {
     app: './src/app/about.js',
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].bundle.js',
   },
 

@@ -7,7 +7,7 @@
     "dev": "webpack serve --open --config webpack.dev.js",
     "build": "yarn build:tsc && webpack --config webpack.prod.js",
     "build:tsc": "tsc -p tsconfig.json",
-    "start": "http-server build -p 4000",
+    "start": "http-server dist -p 4000",
     "lint": "eslint --ignore-path .gitignore . --ext .ts,.html",
     "lint:fix": "yarn lint -- --fix",
     "test": "jest"
@@ -55,6 +55,7 @@
     "not IE 11"
   ],
   "dependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "ts-node": "^10.0.0"
   }
 }
