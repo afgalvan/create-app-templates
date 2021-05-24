@@ -1,4 +1,4 @@
-import { Numbers } from '../../src/index';
+import { Numbers } from '@app/index';
 
 describe('Numbers', () => {
   describe('isOdd', () => {

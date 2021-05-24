@@ -1,6 +1,6 @@
-import './styles/main.css';
+import '../assets/scss/normalize.css';
 
-console.log('about');
+console.log('index');
 export class Numbers {
   public isOdd(numbers: number[]): boolean[] {
     const answer = numbers.map((value: number) => {
