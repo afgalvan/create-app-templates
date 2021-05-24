@@ -16,7 +16,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
     "paths": {
-      "@app/*": ["src/app/*"],
+      "@app/*": ["src/app/*"]
     }
-  }
+  },
+  "include": ["./src/**/**.ts"],
+  "exclude": ["./node_modules"]
 }
