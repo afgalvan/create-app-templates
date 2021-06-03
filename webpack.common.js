@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     app: './src/app/index.js',
-    app: './src/app/about.js',
+    about: './src/app/about.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -25,8 +25,8 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        test: /\.s[ac]ss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(png|jpg|gif)$/i,
@@ -37,8 +37,9 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: '/src/public/index.html',
+      template: '/src/html/index.html',
       filename: 'index.html',
+      chunks: ['app'],
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -47,6 +48,11 @@ module.exports = {
         removeStyleLinkTypeAttributes: true,
         useShortDoctype: true,
       },
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/html/about.html',
+      chunks: ['about'],
+      filename: 'about.html',
     }),
   ],
 };

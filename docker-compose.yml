@@ -7,6 +7,6 @@ services:
     restart: always
     build: .
     volumes:
-      - src:/app/src
+      - ./src:/app/src
     ports:
       - 4000:4000

@@ -1,3 +1,3 @@
-import '../assets/scss/normalize.css';
+import '../assets/scss/main.scss';
 
 console.log('about');
