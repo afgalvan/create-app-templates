@@ -4,9 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "webpack serve --open --config webpack.dev.js",
-    "build": "yarn build:tsc && webpack --config webpack.prod.js",
+    "dev": "webpack serve --open --host=0.0.0.0 --config webpack.dev.js",
+    "clean:js": "rm src/app/*.js && rm src/app/**/*.js",
     "build:tsc": "tsc -p tsconfig.json",
+    "build": "yarn build:tsc && webpack --config webpack.prod.js && clean:js",
     "start": "http-server dist -p 4000",
     "lint": "eslint --ignore-path .gitignore . --ext .ts,.html",
     "lint:fix": "yarn lint -- --fix",

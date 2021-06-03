@@ -1,12 +1,17 @@
-.dockerignore
-.git
-docker-compose.yml
-Dockerfile
-node_modules
-dist
-data
-logs
-build
+*git*
 .github
 .gradle
+.vscode
+build
+dist
+node_modules
+tests
+.dockerignore
+docker-compose.yml
+Dockerfile
+jest.config*
+LICENSE
+README*
+*log
+logs
 
