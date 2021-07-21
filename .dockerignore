@@ -14,4 +14,7 @@ LICENSE
 README*
 *log
 logs
+**/.git
+**/.DS_Store
+**/node_modules
 
