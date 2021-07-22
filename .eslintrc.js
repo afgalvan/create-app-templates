@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     es2021: true,
-    browser: true,
+    node: true,
   },
   extends: [
     'eslint:recommended',
@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'simple-import-sort', 'html', 'import'],
+  plugins: ['@typescript-eslint', 'simple-import-sort', 'import'],
   rules: {
     'max-len': [2, { code: 95, ignoreUrls: true }],
     indent: ['error', 2, { SwitchCase: 1 }],
