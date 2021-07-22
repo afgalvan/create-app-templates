@@ -12,6 +12,9 @@ Dockerfile
 jest.config*
 LICENSE
 README*
+.eslint*
+.prettier.js
+.editorconfig
 *log
 logs
 **/.git
