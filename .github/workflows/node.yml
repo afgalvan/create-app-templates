@@ -32,7 +32,10 @@ jobs:
       - name: 🔎 Yarn audit
         uses: pragatheeswarans/yarn-audit-action@v1.0.0
         with:
-          token: GITHUB_TOKEN
+          token: ${{ secrets.GITHUB_TOKEN }}
+          label: 'audit issues'
+          paths: |
+            src
 
       - name: 🧪 Run tests
         run: yarn test
