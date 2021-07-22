@@ -10,12 +10,12 @@ test('Should return an array being true for each odd number', () => {
 });
 
 test('Should return false given an array with any even number', () => {
-  const result =  areAllOdds(subject);
+  const result = areAllOdds(subject);
   expect(result).toBeFalsy();
 });
 
 test('Should return true given an array with no even number', () => {
   const oddSubject = [1, 3, 5];
-  const result =  areAllOdds(oddSubject);
+  const result = areAllOdds(oddSubject);
   expect(result).toBeTruthy();
 });

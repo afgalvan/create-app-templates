@@ -6,7 +6,7 @@ export const areAllOdds = (numbers: number[]): boolean => {
   }
 
   return true;
-}
+};
 
 export const areOdds = (numbers: number[]): boolean[] =>
   numbers.map((value: number) => isOdd(value));
