@@ -2,6 +2,7 @@ import { injectable } from 'tsyringe';
 import { GET, Path } from 'typescript-rest';
 
 import { version } from '../../package.json';
+
 interface ApiManifest {
   status: string;
   version: string;
@@ -39,7 +40,7 @@ interface ApiManifest {
 export class HomeController {
   /**
    * @swagger
-   * /tasks:
+   * /:
    *  get:
    *    summary: Returns the API spec
    *    tags: [Home]

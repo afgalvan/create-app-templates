@@ -15,5 +15,5 @@ export const options = {
       },
     ],
   },
-  apis: ['./src/controllers/*.ts'],
+  apis: ['./src/controllers/*controller.ts'],
 };

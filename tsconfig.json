@@ -16,11 +16,11 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
     "outDir": "./build",
     "rootDir": "./",
-    "baseUrl": "./",
     "paths": {
-      "@app": ["./src/app.ts"]
+      "@app": ["src/app.ts"]
     }
   },
   "include": ["./src/**/**.ts"],
