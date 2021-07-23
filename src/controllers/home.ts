@@ -1,3 +1,4 @@
+import { injectable } from 'tsyringe';
 import { GET, Path } from 'typescript-rest';
 
 import { version } from '../../package.json';
@@ -33,8 +34,9 @@ interface ApiManifest {
  *  name: Home
  *  description: Home endpoint
  */
+@injectable()
 @Path('/')
-export class Home {
+export class HomeController {
   /**
    * @swagger
    * /tasks:
