@@ -11,11 +11,13 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./build",
-    "rootDir": "./src",
+    "rootDir": "./",
     "baseUrl": "./",
     "paths": {
       "@app/*": ["src/app/*"]
