@@ -1,6 +1,10 @@
-import express from 'express';
+import 'reflect-metadata';
+
+import { container } from 'tsyringe';
 
 import { App } from './app';
+import { setupDependencies } from './services/dependencyInjection';
 
-const app = new App(express());
+setupDependencies();
+const app = container.resolve(App);
 app.start(() => console.log(`Server on port ${app.port}`));

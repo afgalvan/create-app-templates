@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "start": "node build/",
+    "start": "node build/src",
     "test": "yarn test:unit && yarn test:features",
     "test:unit": "jest",
     "test:features": "NODE_ENV=test cucumber-js -p api",
