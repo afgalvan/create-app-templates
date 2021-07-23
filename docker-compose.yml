@@ -10,7 +10,7 @@ services:
     volumes:
       - ./src:/app/src
     ports:
-      - 8080:8080
+      - 8081:8081
 
   nginx:
     container_name: api_proxy
