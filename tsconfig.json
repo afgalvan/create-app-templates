@@ -20,7 +20,7 @@
     "rootDir": "./",
     "baseUrl": "./",
     "paths": {
-      "@app/*": ["src/app/*"]
+      "@app": ["./src/app.ts"]
     }
   },
   "include": ["./src/**/**.ts"],

@@ -2,7 +2,7 @@ import 'reflect-metadata';
 
 import { container } from 'tsyringe';
 
-import { HomeController } from './home';
+import { HomeController } from './home.controller';
 
 const homeController = container.resolve(HomeController);
 
