@@ -15,6 +15,7 @@ README*
 .eslint*
 .prettier.js
 .editorconfig
+.env*
 *log
 logs
 **/.git

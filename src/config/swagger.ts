@@ -1,7 +1,9 @@
-import { description, version } from '../package.json';
-import { port } from './config/app.json';
+import swaggerJSDoc from 'swagger-jsdoc';
 
-export const options = {
+import { description, version } from '../../package.json';
+import { port } from './app.json';
+
+export const options: swaggerJSDoc.Options = {
   definition: {
     openapi: '3.0.0',
     info: {

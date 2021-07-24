@@ -19,12 +19,9 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
     "morgan": "^1.10.0",
     "swagger-jsdoc": "^6.1.0",
-    "swagger-ui-express": "^4.1.6",
-    "tsyringe": "^4.6.0",
-    "typescript-rest": "^3.0.4"
+    "tsyringe": "^4.6.0"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.1",
