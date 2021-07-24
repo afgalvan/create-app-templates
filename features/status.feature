@@ -9,7 +9,9 @@ Feature: Api status
     And the response should be:
       """
       {
-        "status": "ok",
-        "version": "1.0.0"
+        "status": "OK",
+        "isOn": true,
+        "documentation": "http://localhost:8000/docs",
+        "repository": "https://github.com/afgalvan/create-app-templates"
       }
       """

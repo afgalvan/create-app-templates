@@ -4,8 +4,8 @@ const common = [
 
 const api = [
   ...common,
-  'src/__test__/features/**/*.feature',
-  '--require src/__test__/features/steps_definition/*.steps.ts',
+  '__test__/features/**/*.feature',
+  '--require __test__/features/steps_definition/*.steps.ts',
 ].join(' ');
 
 module.exports = {
