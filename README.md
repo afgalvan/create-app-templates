@@ -1,6 +1,6 @@
 # create-node-app
 
-Basic node api template.
+Basic node api template for [create-app](https://github.com/afgalvan/create-app).
 
 ## Requirements
 
@@ -10,6 +10,16 @@ Basic node api template.
   - [yarn](https://classic.yarnpkg.com/en/docs/install/) ^1.x
   - [npm](https://www.npmjs.com/get-npm) ^6.x
 - [Docker](https://www.docker.com/get-started)
+
+---
+
+## Run the project
+
+- With docker
+
+```bash
+docker-compose up --build
+```
 
 ---
 
@@ -34,3 +44,11 @@ zsh
 > ```zsh
 > echo "alias create-app=\"~/.config/create-app/create_app.sh\"" >> ~/.zshrc
 > ```
+
+---
+
+## Use this template
+
+```bash
+create-app <app-name> node
+```
