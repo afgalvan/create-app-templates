@@ -15,10 +15,40 @@ Basic node api template for [create-app](https://github.com/afgalvan/create-app)
 
 ## Run the project
 
-- With docker
+### With node
+
+- install deps
+
+```bash
+# with npm
+npm install
+
+# with yarn
+yarn
+```
+
+- start server
+
+```bash
+# with npm
+npm run start
+
+# with yarn
+yarn start
+```
+
+### With docker
+
+- dev environment
 
 ```bash
 docker-compose up --build
+```
+
+- production environment
+
+```bash
+docker compose -f docker-compose.prod.yml up --build
 ```
 
 ---
