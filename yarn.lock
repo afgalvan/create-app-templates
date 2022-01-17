@@ -721,12 +721,12 @@
     webpack "5.58.2"
     webpack-node-externals "3.0.0"
 
-"@nestjs/common@^8.0.11":
-  version "8.0.11"
-  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-8.0.11.tgz#ad86a778d6e5183c0567c34b68acf73cfdb1480f"
-  integrity sha512-S5vmklChtKvR2vbjkhPIHG/UiIKCUnacVKTKjrXX0XO7NFJPUQWpeQe7ny1DDRjKpVgJMvi0IidH253nUcKHvQ==
+"@nestjs/common@^8.2.5":
+  version "8.2.5"
+  resolved "https://registry.yarnpkg.com/@nestjs/common/-/common-8.2.5.tgz#6630d446ee6e925476d2401a71b647c00c75dfa9"
+  integrity sha512-8VOZmHcCyhBtfvxehDfudsCrNghUoqDpZA5W8d/PUhMgz4Y1eT0M2ENBIuxr3C3j1vLypFOo30La2ymfQlOC8Q==
   dependencies:
-    axios "0.22.0"
+    axios "0.24.0"
     iterare "1.2.1"
     tslib "2.3.1"
     uuid "8.3.2"
@@ -1500,10 +1500,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-axios@0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.22.0.tgz#bf702c41fb50fbca4539589d839a077117b79b25"
-  integrity sha512-Z0U3uhqQeg1oNcihswf4ZD57O3NrR1+ZXhxaROaWpDmsDTx7T2HNBV2ulBtie2hwJptu8UvgnJoK+BIqdzh/1w==
+axios@0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
   dependencies:
     follow-redirects "^1.14.4"
 
